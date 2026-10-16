@@ -1,0 +1,10 @@
+{
+  "name": "ringzange.de",
+  "private": true,
+  "description": "Statische Website von Allround E.A. Sauer",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node tests/static-check.mjs && node tests/e2e.mjs",
+    "test:screenshots": "node tests/e2e.mjs --screenshots"
+  }
+}
